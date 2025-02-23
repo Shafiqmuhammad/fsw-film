@@ -3,8 +3,8 @@ import { ChevronDown } from "lucide-react"
 import Navbar from "@/app/components/navbar"
 import ServicesSection from "@/app/components/services-section"
 import OurClients from "@/app/components/our-clients"
-import OurTeam from "@/app/components/our-team"
 import BlogSection from "@/app/components/blog-section"
+import Team from "./components/team/team"
 
 export default function Home() {
   return (
@@ -47,7 +47,7 @@ export default function Home() {
 
       <ServicesSection />
       <OurClients />
-      <OurTeam />
+      <Team />
       <BlogSection />
     </main>
   )
